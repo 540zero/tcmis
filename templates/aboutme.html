@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>我是三個ㄌ</title>
+    <style type="text/css">
+
+   * { font-family:"微軟正黑體"; margin-left:auto; margin-right:auto;}
+   h1 {color:9D9D9D; font-size:70px;}
+   h2 {color:9D9D9D; font-size:40px;}
+  
+</style>
+<script>
+
+function change1() {
+
+document.getElementById("pic").src = "/static/SKY2jpg.jpg";
+
+document.getElementById("h2text").innerText = "靜宜資管";
+
+}
+
+function change2() {
+
+document.getElementById("pic").src = "/static/SKY.png";
+
+document.getElementById("h2text").innerText = "Ling-Ling Liu";
+
+}
+
+</script>
+</head>
+<body>
+	<table width="70%" border="1">
+
+<tr>
+<td>
+
+<img src="/static/SKY.png" width = "200%"id="pic"onmouseover="change1()" onmouseout="change2()"></img>
+
+</td>>
+
+<td>
+
+<h1>劉苓苓<br></h1>
+  <h2 id="h2text">  Ling-Ling Liu<br></h2>
+    
+</td>
+</tr>
+<tr>
+    <td>
+
+   FB :<a href=https://www.facebook.com/profile.php?id=100009081637625>https://www.facebook.com/profile.php?id=100009081637625</a><br>
+    我喜歡的娛樂；<br>
+    <a href=https://www.thatskygame.com/>SKY </a><br>
+    <a href=https://www.disneyplus.com/login>DISNEY+</a><br>
+    <a href=https://www.youtube.com/channel/UCfkXDY7vwkcJ8ddFGz8KusA>SEVENTEEN </a><br>
+   
+</td>
+<td>
+
+背景配樂<br>
+    <audio controls>
+    <source src="/static/elephant.mp3" type="audio/mP3">
+    </audio><br>
+   
+</td>
+
+<td>
+
+ 我喜歡的遊戲 新季節即將與AURORA合作!!<br>
+    <iframe src="https://www.youtube.com/embed/5LKhTBECETY" allowfullscreen></iframe>
+
+</td>
+
+</tr>
+
+</table>
+</body>
+</html>
